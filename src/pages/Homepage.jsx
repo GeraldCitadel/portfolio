@@ -5,7 +5,6 @@ import ContactIcons from '../components/ContactIcons/ContactIcons'
 import Clients from '../components/Clients/Clients'
 import Services from '../components/Services/Services'
 import Portfolio from '../components/Portfolio/Portfolio'
-import Testimonials from '../components/Testimonials/Testimonials'
 import ScrollButton from '../components/ScrollButton/ScrollButton'
 import ContactArea from '../components/ContactArea/ContactArea'
 import Footer from '../components/Footer/Footer'
@@ -20,7 +19,6 @@ const Homepage = () => {
     <Portfolio />
     {/* <Clients /> */}
     <Services />
-    {/* <Testimonials /> */}
     <Stack />
     <ContactArea />
     <ScrollButton />
