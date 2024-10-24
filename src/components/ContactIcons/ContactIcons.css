@@ -1,0 +1,50 @@
+.contact-icons {
+   position: fixed;
+   top: 50%;
+   left: 0;
+   transform: translateY(-50%);
+   display: flex;
+   flex-direction: column;
+   overflow: auto;
+ }
+ 
+ .contact-icons ol {
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+ }
+ 
+ /* .contact-icons a {
+   display: block;
+   padding: 10px;
+   color: white;
+   background-color: #333;
+   text-align: center;
+   margin-bottom: 5px;
+   text-decoration: none;
+   font-size: 20px;
+ } */
+ .contact-social-icon{
+   display: flex;
+   gap: 5px;
+   flex-direction: column;
+}
+.contact-icon-container{
+   padding: 10px;
+   padding-bottom: 6px;
+   /* background: #fbfbfb; */
+   /* border: 1px solid #ebebeb; */
+}
+
+.contact-icon-container img{
+   /* margin-left: 400px; */
+  height: 20px;
+  width: 20px;
+}
+ 
+ @media (max-width: 768px) {
+   .contact-icons {
+     display: none;
+   }
+ }
+ 

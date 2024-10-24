@@ -1,0 +1,63 @@
+.aspect {
+   background: #455f1a8f;
+   /* background: url('../../Assets/Gerald9.JPG') no-repeat center center/cover; */
+   color: #fff;
+   text-align: center;
+   margin-top: 80px;
+}
+
+.description {
+   display: flex;
+   justify-content: space-evenly;
+   gap: 40px;
+   padding-top: 60px;
+}
+
+.description img {
+   border-radius: 50%;
+   margin-bottom: 20px;
+   height: 500px;
+   width: 400px;
+   float: left;
+   color: #fff;
+}
+
+.home h1 {
+   font-size: 4em;
+   margin-top: 40px;
+}
+.home button{
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+.add1,
+.add2 {
+   font-size: 2em;
+}
+
+@media (max-width: 768px) {
+
+   .description {
+      gap: 10px;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      flex-wrap: wrap;
+      margin-top: 50px;
+   }
+
+   .description img {
+     margin-top: 20px;
+
+   }
+
+   /* .home h1 {
+      font-size: 2em;
+   } */
+
+   .add1,
+   .add2 {
+      font-size: 1em;
+   }
+}
