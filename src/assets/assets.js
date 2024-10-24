@@ -33,6 +33,7 @@ import javascript_logo from './javascript-logo.png'
 import nextjs_logo from './nextjs-logo.webp'
 import react_logo from './react-logo.png'
 import vscode_logo from './vscode-logo.png'
+import HomeIcon from './Gerald.jpg'
 
 
 
@@ -51,7 +52,8 @@ Linkedin_Icon,
 Email_icon,
 Call_icon,
 ScrollIcon,
-logo
+logo,
+HomeIcon
 }
 
 export const portfolioData = [

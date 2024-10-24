@@ -1,13 +1,10 @@
-import React, { useContext, useState } from 'react'
+import React, { useState } from 'react'
 import { assets } from '../../assets/assets';
-import { NavLink, useNavigate } from 'react-router-dom'
 import { FiMenu } from "react-icons/fi";
 import { ImCancelCircle } from "react-icons/im";
 import classes from './Navbar.module.css'
 
 const Navbar = () => {
-
-   // const navigate = useNavigate()
 
    const [showMenu, setShowMenu] = useState(false)
    const [menu, setMenu] = useState('Home');

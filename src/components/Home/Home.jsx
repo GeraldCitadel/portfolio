@@ -1,11 +1,11 @@
 import React from 'react';
 import './Home.css';
-import HomeIcon from '../../Assets/Gerald.jpg'
+import { assets } from '../../assets/assets';
 
 const Home = () => (
   <div className="aspect" id="home">
     <div className="description">
-      <img src={HomeIcon} alt="profile-Picture" height="100" />
+      <img src={assets.HomeIcon} alt="profile-Picture" height="100" />
       <section className="home">
         <h1>BRAND <br /> STRATEGIST</h1>
         <p className="add1">& WEB DEVELOPER</p>
