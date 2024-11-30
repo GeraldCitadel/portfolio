@@ -20,8 +20,8 @@ const Portfolio = () => {
                   <h2>{Portfolio.title}</h2>
                   <p>{Portfolio.description}</p>
                   <div className='actions'>
-                     <Link to={Portfolio.url} className='button' target='_blank'>Demo</Link>
-                     <Link to={Portfolio.demo} className='button' target='_blank'>GitHub</Link>
+                     <a href={Portfolio.url} className='button' target='_blank'>Demo</a>
+                     <a href={Portfolio.demo} className='button' target='_blank'>GitHub</a>
                   </div>
                </div>
             ))}
