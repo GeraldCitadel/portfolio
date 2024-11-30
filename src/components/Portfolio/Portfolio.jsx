@@ -1,5 +1,6 @@
 import React, { useContext } from 'react'
 import './Portfolio.css'
+import { Link } from 'react-router-dom'
 
 import { portfolioData } from '../../assets/assets';
 import { ThemeContext } from '../../context/ThemeContext';
@@ -19,8 +20,8 @@ const Portfolio = () => {
                   <h2>{Portfolio.title}</h2>
                   <p>{Portfolio.description}</p>
                   <div className='actions'>
-                     <button className='button'>GitHub</button>
-                     <button className='button'>Demo</button>
+                     <Link to={Portfolio.url} className='button' target='_blank'>Demo</Link>
+                     <Link to={Portfolio.demo} className='button' target='_blank'>GitHub</Link>
                   </div>
                </div>
             ))}
