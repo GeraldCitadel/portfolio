@@ -10,7 +10,20 @@ footer {
  
  footer h3 {
    margin: 0;
+   font-size: 14px;
  }
+
+ .footer-dark {
+    background-color: transparent;
+}
+
+ footer hr{
+    width: 90%;
+    height: 2px;
+    background-color: rgba(43, 90, 33, 0.664);
+    margin: auto;
+    margin-bottom: 10px;
+  }
  
  @media (max-width: 768px) {
    footer {

@@ -29,7 +29,7 @@ import git_logo from './Git-Icon.png'
 import html_logo from './html.png'
 import css_logo from './css-logo.png'
 import tailwind_logo from './tailwind-logo.png'
-import javascript_logo from './javascript-logo.png'
+import javascript_logo from './JavaScript-logo.png'
 import nextjs_logo from './nextjs-logo.webp'
 import react_logo from './react-logo.png'
 import vscode_logo from './vscode-logo.png'
@@ -68,22 +68,22 @@ export const portfolioData = [
       image: ecommerce,
       title: "An E-Commerce App",
       description: 'An E-Commerce app where users are able to buy shoes' ,
-      url: 'https://www.github.com/geraldcitadel',
-      demo: 'https://www.github.com/geraldcitadel',
+      url: 'https://ecommerce-shoe-self.vercel.app/',
+      demo: 'https://github.com/GeraldCitadel/ecommerce-shoe',
    },
    {
       image: weather,
       title: "A Weather App",
       description: 'A weather app capable of generating weather information ' ,
-      url: 'https://www.github.com/geraldcitadel',
-      demo: 'https://www.github.com/geraldcitadel',
+      url: 'https://weather-app-mu-five-37.vercel.app/',
+      demo: 'https://github.com/GeraldCitadel/Weather-App-with-React',
    },
    {
       image: tracking,
       title: "Tracking Website",
       description: 'A tracking website where users can track their parcels using a tracking number' ,
-      url: 'https://www.github.com/geraldcitadel',
-      demo: 'https://www.github.com/geraldcitadel',
+      url: 'https://tracking-website-frontend-beta.vercel.app/',
+      demo: 'https://github.com/GeraldCitadel/Tracking-frontend',
    },
 ]
 

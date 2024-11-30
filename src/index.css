@@ -1,61 +1,67 @@
 body {
-   margin: 0;
-   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-     sans-serif;
-   -webkit-font-smoothing: antialiased;
-   -moz-osx-font-smoothing: grayscale;
- }
- 
- * {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #f0f0f0;
+    color: #333;
+}
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
     scroll-margin-top: 90px;
- }
- 
- img{
+}
+
+.dark-mode {
+    background: #000000e0;
+    color: #f0f0f0;
+}
+
+img {
     cursor: pointer;
- }
- 
- a{
+}
+
+a {
     text-decoration: none;
     color: #fff;
- 
- }
+}
 
- .button {
-   font: inherit;
-   cursor: pointer;
-   padding: 0.5rem 1.5rem;
-   border: none;
-   background-color: #2c3320;
-   color: #fff;
-   border-radius: 4px;
-   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.26);
-   font-weight: bold;
-   text-decoration: none;
- }
- 
- .button:hover {
-   background-color: #6f8150;
-   color: #fff;
-   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
- }
- 
- .button-text {
-   font: inherit;
-   cursor: pointer;
-   border: none;
-   background-color: transparent;
-   border: none;
-   color: #3f0c26;
-   border-radius: 4px;
-   font-weight: bold;
-   text-decoration: none;
- }
- 
- .button-text:hover {
-   color: #7c184c;
- }
+.button {
+    font: inherit;
+    cursor: pointer;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    background-color: #2c3320;
+    color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.26);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #6f8150;
+    color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+
+.button-text {
+    font: inherit;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    border: none;
+    color: #3f0c26;
+    border-radius: 4px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.button-text:hover {
+    color: #7c184c;
+}

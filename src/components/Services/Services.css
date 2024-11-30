@@ -1,6 +1,6 @@
 .services-section {
    padding: 20px;
-   background-color: #f9f9f9;
+   /* background-color: #f9f9f9; */
    margin-top: 100px;
  }
  
@@ -14,18 +14,25 @@
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
+   align-items: center;
+   margin: auto;
  }
  
  .service {
    flex: 1 1 30%;
    box-sizing: border-box;
+   margin: auto;
    margin: 10px;
+   margin-left: 25px;
    padding: 15px;
    background-color: whitesmoke;
    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
    text-align: center;
  }
  
+ .dark {
+    background-color: #333;
+ }
  .service .icon {
    font-size: 2em;
    margin-bottom: 10px;

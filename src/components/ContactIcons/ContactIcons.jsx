@@ -21,7 +21,7 @@ const ContactIcons = () => (
             <a href="https://www.youtube.com/geraldcitadel" target='_blank'> <img src={assets.Youtube_Icon} alt="" /></a>
          </div>
          <div className="contact-icon-container">
-            <a href="http://www.linkedin.com/in/geraldcitadel" target='_blank'> <img src={assets.Linkedin_Icon} alt="" /></a>
+            <a href="https://www.linkedin.com/in/geraldcitadel" target='_blank'> <img src={assets.Linkedin_Icon} alt="" /></a>
          </div>
          <div className="contact-icon-container">
             <a href="https://github.com/GeraldCitadel" target='_blank'>  <img src={assets.Git_Icon} alt="" /></a>

@@ -1,60 +1,79 @@
 .portfolio-section {
-   padding: 20px;
-   background-color: #f9f9f9;
-   margin-top: 20px;
- }
+    padding: 20px;
+    /* background-color: #f9f9f9; */
+    margin-top: 20px;
+}
 
- .portfolio-section h3{
-   text-align: center;
-   font-size: 22px;
-   font-weight: bold;
- }
- 
- .portfolio-list {
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-between;
-   gap: 40px;
-   margin: 0px 30px;
-   margin-top: 40px;
- }
- 
- .portfolio {
-   background: linear-gradient(#2c332098, #2c33202a);
-   width: 380px;
-   padding: 32px;
-   border-radius: 8px;
-   text-align: center;
- }
+.portfolio-section h3 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
 
- .portfolio img{
-   width: 300px;
-   height: 200px;
-   border-radius: 4px;
- }
- .portfolio h2{
-   margin: 10px;
- }
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 40px;
+}
 
- .portfolio p{
-   margin-bottom: 10px;
-   color: #16151598;
-   font-size: 16px;
-   line-height: 20px;
-   font-weight: 500;
- }
+.portfolio {
+    background: linear-gradient(#2c332098, #2c33202a);
+    width: 380px;
+    padding: 32px;
+    border-radius: 8px;
+    text-align: center;
+}
 
- .portfolio-section hr{
-   width: 80%;
-   height: 2px;
-   background-color: rgba(43, 90, 33, 0.664);
-   margin: auto;
-   margin-top: 10px;
- }
- 
- @media (max-width: 768px) {
-   .portfolio {
-     flex: 1 1 60%;
-   }
- }
- 
+.dark {
+    background: linear-gradient(#2c3320fa, #2c3320a2);
+}
+
+.portfolio img {
+    width: 300px;
+    height: 200px;
+    border-radius: 4px;
+}
+
+.portfolio h2 {
+    margin: 10px;
+}
+
+.portfolio p {
+    margin-bottom: 10px;
+    color: #16151598;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+}
+.dark p {
+    color: #fff;
+}
+
+.portfolio-section hr {
+    width: 80%;
+    height: 2px;
+    background-color: rgba(43, 90, 33, 0.664);
+    margin: auto;
+    margin-top: 10px;
+}
+
+.actions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+@media (max-width: 768px) {
+    .portfolio {
+        flex: 1 1 60%;
+    }
+}
+
+@media (max-width: 640px) {
+    .portfolio-list {
+        align-items: center;
+    }
+}
