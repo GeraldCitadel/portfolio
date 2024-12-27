@@ -1,0 +1,39 @@
+.header {
+    text-align: center;
+}
+.header h1 {
+    font-size: 22px;
+    font-weight: 700;
+}
+.header h2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.wrapper li {
+    list-style: none;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+.wrapper a {
+    text-decoration: none;
+    color: #000;
+}
+
+.wrapper a:hover {
+    color: rgba(13, 167, 51, 0.815);
+}

@@ -1,0 +1,65 @@
+.header {
+    font-family: "Roboto Slab", serif;
+    background: #fff;
+    color: #000;
+}
+
+.wrapper {
+    width: 70dvw;
+    margin: auto;
+    padding: 30px 5px;
+}
+.wrapper p {
+    font-size: 14px;
+}
+
+.skills p{
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+.skills span {
+    font-weight: 600;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.list {
+    margin-left: 18px;
+}
+
+.heading{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+.heading p{
+    font-weight: 600;
+}
+
+.header h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+}
+
+
+@media (max-width: 768px) {
+    .wrapper {
+        width: 90dvw;
+    }
+}

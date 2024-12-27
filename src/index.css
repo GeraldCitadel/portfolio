@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&display=swap');
+
 body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -56,12 +58,12 @@ a {
     border: none;
     background-color: transparent;
     border: none;
-    color: #3f0c26;
+    color: #2c3320;
     border-radius: 4px;
     font-weight: bold;
     text-decoration: none;
 }
 
 .button-text:hover {
-    color: #7c184c;
+    color: #6f8150;
 }

@@ -1,0 +1,28 @@
+.title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title h2 {
+    font-size: 16px;
+    font-weight: 500;
+}
+.title a {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(13, 167, 51, 0.815);
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.details {
+    margin-left: 16px;
+    padding-bottom: 10px;
+}
+.details li {
+    font-size: 14px;
+    line-height: 22px; 
+    margin-left: 16px; 
+}

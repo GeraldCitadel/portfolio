@@ -61,29 +61,29 @@ export const portfolioData = [
       image: physionet,
       title: "Physionet Africa App",
       description: 'A health website where users can book appointments with doctors' ,
-      url: 'https://www.github.com/geraldcitadel',
-      demo: 'https://www.github.com/geraldcitadel',
+      url: 'https://physionet-frontend.vercel.app/',
+      github: 'https://www.github.com/geraldcitadel',
    },
    {
       image: ecommerce,
       title: "An E-Commerce App",
       description: 'An E-Commerce app where users are able to buy shoes' ,
       url: 'https://ecommerce-shoe-self.vercel.app/',
-      demo: 'https://github.com/GeraldCitadel/ecommerce-shoe',
+      github: 'https://github.com/GeraldCitadel/ecommerce-shoe',
    },
    {
       image: weather,
       title: "A Weather App",
       description: 'A weather app capable of generating weather information ' ,
       url: 'https://weather-app-mu-five-37.vercel.app/',
-      demo: 'https://github.com/GeraldCitadel/Weather-App-with-React',
+      github: 'https://github.com/GeraldCitadel/Weather-App-with-React',
    },
    {
       image: tracking,
       title: "Tracking Website",
       description: 'A tracking website where users can track their parcels using a tracking number' ,
       url: 'https://tracking-website-frontend-beta.vercel.app/',
-      demo: 'https://github.com/GeraldCitadel/Tracking-frontend',
+      github: 'https://github.com/GeraldCitadel/Tracking-frontend',
    },
 ]
 
@@ -165,11 +165,11 @@ export const clientsData = [
 ];
 
 export const servicesData = [
-   {
-     icon: "fa-paint-brush",
-     title: "FULL-SERVICE BRAND CREATION",
-     description: "Create a vibrant brand and foster emotional connection between you and your customer."
-   },
+//    {
+//      icon: "fa-paint-brush",
+//      title: "FULL-SERVICE BRAND CREATION",
+//      description: "Create a vibrant brand and foster emotional connection between you and your customer."
+//    },
    {
      icon: "fa-solid fa-laptop-code",
      title: "WEB DESIGN",
@@ -195,21 +195,21 @@ export const servicesData = [
      title: "DIGITAL MARKET",
      description: "Train yourself or your staff to fully move your business forward. Learn Web design, Digital Marketing, Social Media marketing & Management, Graphics."
    },
-   {
-     icon: "fa-mobile",
-     title: "SOCIAL MEDIA MANAGEMENT",
-     description: "Content creation, audience growth & engagement."
-   },
-   {
-     icon: "fa-user-plus",
-     title: "LEAD GENERATION",
-     description: "Daily leads ensures you never run out of customers."
-   },
-   {
-     icon: "fa-video-camera",
-     title: "CORPORATE VIDEO",
-     description: "Shoot & edit high quality videos that depicts what your business is about"
-   },
+//    {
+//      icon: "fa-mobile",
+//      title: "SOCIAL MEDIA MANAGEMENT",
+//      description: "Content creation, audience growth & engagement."
+//    },
+//    {
+//      icon: "fa-user-plus",
+//      title: "LEAD GENERATION",
+//      description: "Daily leads ensures you never run out of customers."
+//    },
+//    {
+//      icon: "fa-video-camera",
+//      title: "CORPORATE VIDEO",
+//      description: "Shoot & edit high quality videos that depicts what your business is about"
+//    },
  ];
 
  export const TechStack = [

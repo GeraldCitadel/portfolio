@@ -1,6 +1,8 @@
 import { useContext, useEffect, useState } from 'react'
 import Homepage from './pages/Homepage'
 import { ThemeContext } from './context/ThemeContext'
+import { Route, Routes } from 'react-router-dom'
+import Resume from './pages/Resume'
 
 
 const App = () => {
@@ -17,7 +19,10 @@ const App = () => {
          'dark-mode' 
         //  : isDark ? "dark-mode" 
          : ''}>
-            <Homepage />
+            <Routes>
+                <Route path='/' element={<Homepage />} />
+                <Route path='/resume' element={<Resume />} />
+            </Routes>
         </div>
     )
 }

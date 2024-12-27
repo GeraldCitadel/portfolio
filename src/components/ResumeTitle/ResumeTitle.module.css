@@ -1,0 +1,17 @@
+.header h1{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.header hr {
+    height: 2px;
+    background-color: #000;
+    border: none;
+    outline: none;
+    color: #000;
+}
+
+.children {
+    padding: 4px 10px;
+}
